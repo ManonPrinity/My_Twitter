@@ -1,0 +1,224 @@
+@font-face { font-family: Redressed; src: url("../font/Redressed.ttf") format("truetype");}
+
+/* ---- reset ---- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, tbody, tfoot, thead, tr, th, td 
+{
+	margin: 0;
+	padding: 0;
+}
+
+body 
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+ 	background-image: url("../../images/motif.jpg");
+ 	background-repeat: repeat;
+ 	font-family: Redressed, "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+ 	font-size: 18px; 
+}
+
+ol, ul 
+{
+	list-style: none;
+}
+
+/* ---- mon css ---- */
+
+html
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p 
+{ 
+	margin: 0px;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+/* ---- mon Header ---- */
+
+header h1
+{
+	font-size: 120px;
+	font-family: Redressed;
+	display: block;
+	margin: auto;
+	color: #a0fdfc;
+	text-align: center;
+	text-shadow: 2px 2px 0px #687d7d;
+	padding-top: 30px;
+}
+
+header
+{
+	height: 220px;
+	z-index: 1;
+	background-size: 50%;
+
+}
+
+header img
+{
+	display: block;
+	position: absolute;
+	margin: right;
+	height: 450px;
+	width: 550px;
+	margin-top: -110px;
+	margin-left: -70px;
+}
+
+/* ---- ma page ---- */
+
+#page
+{
+	display: block;
+	position: relative;
+}
+
+#page p
+{
+	text-align: center;
+	font-size: 100px;
+	margin-left: 110px;
+}
+
+/* ---- mon mur ---- */
+
+#mur
+{
+	display: block;
+	opacity: 0.75;
+	height: 550px;
+	width: 1200px;
+	border: 5px solid #687d7d;
+	margin-left: 345px;
+	text-align: center;
+	background-color: #f3efe3;
+}
+
+/* ---- Gauche ----*/
+
+#leftAside
+{
+	display: block;
+	position: absolute;
+	top: 230px;
+	opacity: 0.75;
+	z-index: 2;
+	width: 305px;
+	height: 100%;
+	border-right: 10px solid #687d7d;
+	border-top: 10px solid #687d7d;
+	background: #f3efe3;
+	font-size: 0px;
+}
+
+#firstButton p
+{
+	font-size: 40px;
+	text-align: center;
+}
+
+#firstButton
+{
+	display: block;
+	padding: 5px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#firstButton a
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	height: 50px;
+	margin: 5px;
+	padding: 5px;
+	border: 5px solid #687d7d;
+	background: #08c9f5;
+	color: white;
+	border-radius: 5px;
+	font-family: Redressed;
+	font-size: 30px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#connect
+{
+	display: block;
+}
+
+#inscript
+{
+	display: block;
+}
+
+.return 
+{
+	position: relative;
+	top: 20px;
+}
+
+/* ---- Droite ---- */
+
+
+
+/* ---- Inscription ---- */
+
+#inscriptPage 
+{
+	display: none;
+	position: absolute;
+	text-align: center;
+	width: 150px;
+}
+
+#inscriptPage form
+{
+	display: block;
+	position: relative;
+	text-align: center;
+	
+}
+
+#inscriptPage label 
+{
+	position: relative;
+    line-height: 40px;
+}
+
+/* ----- Connection ------- */
+
+#ConnectPage 
+{
+	display: none;
+	text-align: center;
+	margin-left: 45%;
+	width: 170px;
+}
+
+#ConnectPage label 
+{
+	position: relative;
+    top: 15px;
+    line-height: 50px;
+}
